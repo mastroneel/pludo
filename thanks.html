@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.0/flexboxgrid.min.css" integrity="sha512-Q3U8hz9H8BrYqsJLtfoyk0it/iXR8ddBJ5HbBlDcvgJXZ5KkePOQoLfq1HgERZXe9EfE0/sHAMsXPOkt1jY3YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/app.css">
+    <title>Pludo</title>
+  </head>
+  <body>
+
+  <!-- header -->
+  <div class="row header-row">
+    <div class="col-xs-4">
+      <h2>Pludo</h2>
+    </div>
+    <div class="col-xs-8">
+      <p>Are you a creator? <a href="index.html#submitted">Email us.</a></p>
+    </div>
+  </div>
+  <!-- end header -->
+
+  <!-- main -->
+  <div class="row main-row">
+    <div class="col-xs-12 col-sm-8">
+      <h1>
+        Become the best version of yourself in just 90 seconds
+      </h1>
+      <p>
+        Get exclusive voice messages from the world’s leading experts<br>
+for less than a cup of coffee
+      </p>
+
+      <p>
+        What do you want to do? Listen below.
+      </p>
+      <ul>
+        <li id="li1" class="showPlayer1">
+          Be less anxious 🧘
+        </li>
+        <li id="li2" class="showPlayer2">
+          Have more sex 💑
+        </li>
+        <li id="li3" class="showPlayer3">
+          Make friends easily 🤝
+        </li>
+      </ul>
+      <br><br>
+
+      <!-- info@pludo.xyz -->
+      <!-- <form action="mailto:info@laurenmastroni@gmail.com" method="get" enctype="text/plain">
+        <div class="border-container">
+          <input type="text" placeholder="Enter your email to get early access">
+        </div> -->
+        <!-- <input type="submit" value="Join Waitlist"> -->
+      <!-- </form> -->
+
+
+      <!-- modify this form HTML and place wherever you want your form -->
+
+
+      <div class="success-message">
+        <p class="bold center">
+          🎉 <br>
+          Successfully submitted!<br>
+          Look out for an email from us soon.
+        </p>
+      </div>
+
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- player section -->
+
+<!-- <a name="myanchor"></a> -->
+
+      <div id="player1" class="player player1">
+        <img src="img/woman-1.jpeg" alt="woman">
+        <h2 class="bold">
+          Alyssa Rocco
+        </h2>
+
+
+<audio id="audio" src="audio/audio-1.m4a" preload="auto"  ></audio>
+
+<!-- <div id="progressbar1"></div> -->
+
+<!-- <progress id="seekbar" value="0" max="1" style="width:400px;"></progress> -->
+<progress value="0" max="1" id="progress1"></progress><br>
+
+<div class="button-container">
+  <button class="play-button" id="play">Play</button>
+  <button class="pause-button" id="stop">Stop</button>
+</div>
+
+
+
+
+
+        <!-- player -->
+        <!-- <div class="container"> -->
+          <!-- <div class="progress progress1" id="progress1"></div> -->
+          <audio id="audio1" src="audio/audio-1.m4a"></audio>
+          <!-- <button class="togglePlay" onClick="togglePlay1()">Play/Pause</button> -->
+        <!-- </div> -->
+
+
+
+        <!-- end player -->
+      </div>
+      <!-- end player section -->
+
+      <div id="player2" class="player player2">
+        <img src="img/woman-2.jpeg" alt="woman">
+        <h2 class="bold">
+          Alyssa Rocco
+        </h2>
+        <!-- player -->
+
+<audio id="audio2" src="audio/audio-1.m4a" preload="auto"  ></audio>
+
+<progress value="0" max="1" id="progress2"></progress><br>
+
+<button class="play-button" id="play2">Play</button>
+<button class="pause-button" id="stop2">Stop</button>
+
+        <!-- <div class="container">
+          <div class="progress" id="progress"></div>
+          <audio id="audio" src="audio/audio-1.m4a"></audio>
+          <button class="togglePlay" onClick="togglePlay()">Play/Pause</button>
+        </div> -->
+        <!-- end player -->
+      </div>
+      <div id="player3" class="player player3">
+        <img src="img/man-1.jpeg" alt="man">
+        <h2 class="bold">
+          Alyssa Rocco
+        </h2>
+        <!-- player -->
+
+    <audio id="audio3" src="audio/audio-1.m4a" preload="auto"  ></audio>
+<progress value="0" max="1" id="progress3"></progress><br>
+
+    <button class="play-button" id="play3">Play</button>
+    <button class="pause-button" id="stop3">Stop</button>
+
+        <!-- <div class="container">
+          <div class="progress" id="progress"></div>
+          <audio id="audio" src="audio/audio-1.m4a"></audio>
+          <button class="togglePlay" onClick="togglePlay()">Play/Pause</button>
+        </div> -->
+        <!-- end player -->
+      </div>
+    </div>
+  </div>
+  <!-- end main -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+
+  </body>
+</html>
