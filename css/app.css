@@ -127,8 +127,8 @@ li {
   transform: translateY(-50%); }
   .player img {
     border-radius: 50%;
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
     display: inline-flex; }
   .player h2 {
     font-size: 25px;
@@ -140,7 +140,7 @@ li {
     float: left; }
     .player .button-container {
       position: absolute;
-      top: 14px;
+      top: 4px;
       right: -68px; } }
 .container {
   width: 100%;
@@ -215,9 +215,14 @@ li {
   margin-top: -40px; }
 
 @media (max-width: 767px) {
+  .main-row form button[type="submit"] {
+    margin-top: 23px; }
+
   body {
-    padding-left: 0;
-    text-align: center; }
+    padding-left: 23px; }
+
+  .header-row h2 {
+    margin-left: 0; }
 
   ul li {
     max-width: 90%;
@@ -225,8 +230,7 @@ li {
 
   .header-row h2 {
     margin-top: 23px;
-    text-align: left;
-    margin-left: 23px; }
+    text-align: left; }
   .header-row p {
     margin-right: 23px;
     margin-top: 23px; }
@@ -351,5 +355,89 @@ progress::-moz-progress-bar {
 
   progress::-moz-progress-bar {
     width: 200px; } }
+.main-row ul {
+  position: relative;
+  width: 600px; }
+  .main-row ul #player1 {
+    position: absolute;
+    right: 0;
+    top: 30px; }
+  .main-row ul #player2 {
+    position: absolute;
+    right: 0;
+    top: 128px; }
+  .main-row ul #player3 {
+    position: absolute;
+    right: 0;
+    top: 220px; }
+
+.player {
+  float: left; }
+
+@media (max-width: 767px) {
+  .main-row ul li {
+    float: left; }
+
+  .border-container {
+    margin-top: 90px; }
+
+  .main-row ul {
+    width: 100%; }
+    .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
+      right: 60px; }
+    .main-row ul #player1 {
+      top: 105px; }
+    .main-row ul #player2 {
+      top: 203px; }
+    .main-row ul #player3 {
+      top: 295px; } }
+@media (max-width: 680px) {
+  .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
+    right: 20px; } }
+@media (max-width: 640px) {
+  ul li {
+    max-width: 60%; }
+
+  .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
+    right: 60px; } }
+@media (min-width: 570px) and (max-width: 640px) {
+  .border-container {
+    max-width: 60%; } }
+@media (max-width: 530px) {
+  ul li {
+    max-width: 70%; }
+
+  .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
+    right: 20px; } }
+@media (max-width: 480px) {
+  .player img {
+    width: 80px;
+    height: 80px; } }
+@media (max-width: 420px) {
+  body {
+    padding-left: 10px; }
+
+  .player img {
+    width: 80px;
+    height: 80px; }
+
+  .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
+    right: 10px; }
+  .main-row ul #player1 {
+    top: 110px; }
+  .main-row ul #player2 {
+    top: 208px; }
+  .main-row ul #player3 {
+    top: 300px; } }
+@media (max-width: 420px) {
+  body {
+    padding-left: 8px; }
+
+  .player img {
+    width: 70px;
+    height: 70px; }
+
+  .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
+    right: 6px; } }
 
 /*# sourceMappingURL=app.css.map */
