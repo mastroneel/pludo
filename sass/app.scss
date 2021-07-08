@@ -184,6 +184,16 @@ li {
     border-radius: 50%;
     width: 128px;
     height: 128px;
+    display: inline-flex;
+  }
+  .button-container {
+  //  display: inline-flex;
+    position: absolute;
+    top: 14px;
+    right: -68px;
+    .play-button {
+  //    margin-top: -50px;
+    }
   }
   h2 {
     font-size: 25px;
@@ -229,6 +239,7 @@ li {
   transition: transform 150ms ease-out;
   background: $background;
   //margin-top: 10px;
+  padding-left: 20px;
 
   &:after {
     box-sizing: border-box;
@@ -275,7 +286,7 @@ li {
   margin-left: 0;
   border-width:0 7px;
   border-color: $black;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .success-message {
