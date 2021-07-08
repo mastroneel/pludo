@@ -186,15 +186,6 @@ li {
     height: 128px;
     display: inline-flex;
   }
-  .button-container {
-  //  display: inline-flex;
-    position: absolute;
-    top: 14px;
-    right: -68px;
-    .play-button {
-  //    margin-top: -50px;
-    }
-  }
   h2 {
     font-size: 25px;
     line-height: 25px;
@@ -205,8 +196,19 @@ li {
 @media (min-width: 768px) {
   .player {
       float: left;
+      .button-container {
+      //  display: inline-flex;
+        position: absolute;
+        top: 14px;
+        right: -68px;
+        .play-button {
+      //    margin-top: -50px;
+        }
+      }
   }
 }
+
+
 
 .container {
   width: 100%;
@@ -239,7 +241,6 @@ li {
   transition: transform 150ms ease-out;
   background: $background;
   //margin-top: 10px;
-  padding-left: 20px;
 
   &:after {
     box-sizing: border-box;
@@ -270,6 +271,11 @@ li {
   }
 }
 
+@media (min-width: 768px) {
+  .play-button {
+      padding-left: 20px;
+  }
+}
 
 .button-container {
   height: 80px;
@@ -287,6 +293,12 @@ li {
   border-width:0 7px;
   border-color: $black;
   margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .pause-button {
+      margin-top: 10px;
+  }
 }
 
 .success-message {

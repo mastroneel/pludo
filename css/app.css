@@ -130,10 +130,6 @@ li {
     width: 128px;
     height: 128px;
     display: inline-flex; }
-  .player .button-container {
-    position: absolute;
-    top: 14px;
-    right: -68px; }
   .player h2 {
     font-size: 25px;
     line-height: 25px;
@@ -141,7 +137,11 @@ li {
 
 @media (min-width: 768px) {
   .player {
-    float: left; } }
+    float: left; }
+    .player .button-container {
+      position: absolute;
+      top: 14px;
+      right: -68px; } }
 .container {
   width: 100%;
   text-align: center;
@@ -168,8 +168,7 @@ li {
   border-radius: 50%;
   cursor: pointer;
   transition: transform 150ms ease-out;
-  background: #EFECE0;
-  padding-left: 20px; }
+  background: #EFECE0; }
   .togglePlay:after, .play-button:after {
     box-sizing: border-box;
     display: block;
@@ -192,6 +191,9 @@ li {
     border-width: 0 7px;
     border-color: #000; }
 
+@media (min-width: 768px) {
+  .play-button {
+    padding-left: 20px; } }
 .button-container {
   height: 80px;
   margin-top: 12px; }
@@ -205,6 +207,9 @@ li {
   border-color: #000;
   margin-top: 20px; }
 
+@media (max-width: 767px) {
+  .pause-button {
+    margin-top: 10px; } }
 .success-message {
   width: 460px;
   margin-top: -40px; }
