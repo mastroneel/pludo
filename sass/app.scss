@@ -182,8 +182,8 @@ li {
   transform: translateY(-50%);
   img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     display: inline-flex;
   }
   h2 {
@@ -199,7 +199,7 @@ li {
       .button-container {
       //  display: inline-flex;
         position: absolute;
-        top: 4px;
+        top: -10px;
         right: -68px;
         .play-button {
       //    margin-top: -50px;
@@ -588,8 +588,8 @@ progress::-moz-progress-bar {
 @media (max-width: 480px) {
   .player {
     img {
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
     }
   }
 }
@@ -600,8 +600,8 @@ progress::-moz-progress-bar {
   }
   .player {
     img {
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
     }
   }
   .main-row ul {

@@ -127,8 +127,8 @@ li {
   transform: translateY(-50%); }
   .player img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     display: inline-flex; }
   .player h2 {
     font-size: 25px;
@@ -140,7 +140,7 @@ li {
     float: left; }
     .player .button-container {
       position: absolute;
-      top: 4px;
+      top: -10px;
       right: -68px; } }
 .container {
   width: 100%;
@@ -411,15 +411,15 @@ progress::-moz-progress-bar {
     right: 20px; } }
 @media (max-width: 480px) {
   .player img {
-    width: 80px;
-    height: 80px; } }
+    width: 70px;
+    height: 70px; } }
 @media (max-width: 420px) {
   body {
     padding-left: 10px; }
 
   .player img {
-    width: 80px;
-    height: 80px; }
+    width: 70px;
+    height: 70px; }
 
   .main-row ul #player1, .main-row ul #player2, .main-row ul #player3 {
     right: 10px; }
